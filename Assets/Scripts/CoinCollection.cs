@@ -1,16 +1,17 @@
 using UnityEngine;
-
+using System.Collections;
+using System.Collections.Generic;
 public class CoinCollection : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+    private int Coin = 0;
+
+
+    private void OnTriggerEnter(Collider other){
+        if (other.transform.tag == "Coin"){
+            Coin++;
+            Debug.Log(Coin);
+            Destroy(other.gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

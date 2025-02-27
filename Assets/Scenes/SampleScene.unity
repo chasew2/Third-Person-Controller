@@ -172,10 +172,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 1.2066784
+  m_Height: 2.4133568
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -0.7066784, y: 0, z: 0}
 --- !u!23 &200875297
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 615155095}
   - component: {fileID: 615155097}
   - component: {fileID: 615155096}
+  - component: {fileID: 615155098}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -678,6 +679,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &615155098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615155094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26cdfb733ff844c169ff28623310f9ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,6 +963,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7061213189341414368, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1183188
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061213189341414368, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1005228
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061213189341414368, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
+      propertyPath: m_Center.x
+      value: 0.000038444996
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061213189341414368, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
+      propertyPath: m_Center.y
+      value: -0.0029733405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061213189341414368, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7831190163959979334, guid: 8e6f520c98d7349e8b2b1f99b9360996, type: 3}
       propertyPath: m_Name
       value: Coin
@@ -990,8 +1023,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.97139627, y: 0.98839486, z: 2.0438962}
-  m_Center: {x: 0.026937127, y: -0.005802624, z: 0.07305406}
+  m_Size: {x: 1.1133142, y: 1.1184599, z: 2.0438962}
+  m_Center: {x: 0.0033100694, y: 0.017841347, z: 0.07305406}
 --- !u!1001 &6317701300469928301
 PrefabInstance:
   m_ObjectHideFlags: 0
